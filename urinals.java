@@ -36,7 +36,7 @@ public class urinals
     {
         List<String> Inp = new ArrayList<>();
 
-        BufferedReader b = new BufferedReader(new FileReader("C:/Users/Saurabh Jain/Downloads/urinal.dat"));
+        BufferedReader b = new BufferedReader(new FileReader("C:/Users//AAKANKSHA/urinal.dat"));
 
         String l = b.readLine();
 

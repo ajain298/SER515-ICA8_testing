@@ -33,6 +33,9 @@ class urinalsTest {
     @Test
     void countUrinal()
     {
+        urinals u = new urinals();
+        System.out.println("===== AAKANKSHA JAIN ====== TEST TWO EXECUTED ======");
+        assertEquals(1, u.CountUrinal("10001"));
 
     }
 

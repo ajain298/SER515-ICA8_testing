@@ -36,12 +36,14 @@ class urinalsTest {
         urinals u = new urinals();
         System.out.println("===== AAKANKSHA JAIN ====== TEST TWO EXECUTED ======");
         assertEquals(1, u.CountUrinal("10001"));
+        System.out.println("===== AAKANKSHA JAIN ====== TEST THREE EXECUTED ======");
+        assertEquals(0, u.CountUrinal("1001"));
 
     }
 
     @Test
     void fileWrite()
     {
-        assertEquals();
+      
     }
 }

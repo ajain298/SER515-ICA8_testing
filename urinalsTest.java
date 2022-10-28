@@ -1,5 +1,8 @@
 import org.junit.jupiter.api.Test;
 
+import java.io.*;
+import java.util.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class urinalsTest {
@@ -11,9 +14,20 @@ class urinalsTest {
     }
 
     @Test
-    void fileRead()
+    void fileRead() throws IOException
     {
+        System.out.println("===== AAKANKSHA JAIN ====== TEST ONE EXECUTED ======");
+        File fname = new File("C:/Users//AAKANKSHA/urinal.dat");
+        try
+        {
+            assertTrue(fname.exists());
+            System.out.println("File exists in system");
+        }
+        catch(Exception e)
+        {
 
+            assertFalse(fname.exists());
+        }
     }
 
     @Test

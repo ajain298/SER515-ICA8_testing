@@ -38,6 +38,8 @@ class urinalsTest {
         assertEquals(1, u.CountUrinal("10001"));
         System.out.println("===== AAKANKSHA JAIN ====== TEST THREE EXECUTED ======");
         assertEquals(0, u.CountUrinal("1001"));
+        System.out.println("===== AAKANKSHA JAIN ====== TEST FOUR EXECUTED ======");
+        assertEquals(3, u.CountUrinal("00000"));
 
     }
 

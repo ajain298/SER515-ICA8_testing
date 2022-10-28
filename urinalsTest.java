@@ -10,7 +10,7 @@ class urinalsTest {
     @Test
     void main()
     {
-
+        System.out.println("===== AAKANKSHA JAIN ====== TEST EXECUTED ======");
     }
 
     @Test
